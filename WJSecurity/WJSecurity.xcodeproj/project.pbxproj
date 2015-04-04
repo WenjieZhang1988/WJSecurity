@@ -14,6 +14,7 @@
 		188586B91AD077CF008E9B54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188586B81AD077CF008E9B54 /* Images.xcassets */; };
 		188586BC1AD077CF008E9B54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188586BA1AD077CF008E9B54 /* LaunchScreen.xib */; };
 		188586C81AD077D0008E9B54 /* WJSecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188586C71AD077D0008E9B54 /* WJSecurityTests.m */; };
+		188586D31AD079C8008E9B54 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 188586D21AD079C8008E9B54 /* NSString+Hash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		188586C11AD077D0008E9B54 /* WJSecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJSecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188586C61AD077D0008E9B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188586C71AD077D0008E9B54 /* WJSecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJSecurityTests.m; sourceTree = "<group>"; };
+		188586D11AD079C8008E9B54 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		188586D21AD079C8008E9B54 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				188586B01AD077CF008E9B54 /* AppDelegate.m */,
 				188586B21AD077CF008E9B54 /* ViewController.h */,
 				188586B31AD077CF008E9B54 /* ViewController.m */,
+				188586D11AD079C8008E9B54 /* NSString+Hash.h */,
+				188586D21AD079C8008E9B54 /* NSString+Hash.m */,
 				188586AB1AD077CF008E9B54 /* Supporting Files */,
 			);
 			path = WJSecurity;
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				188586B41AD077CF008E9B54 /* ViewController.m in Sources */,
+				188586D31AD079C8008E9B54 /* NSString+Hash.m in Sources */,
 				188586B11AD077CF008E9B54 /* AppDelegate.m in Sources */,
 				188586AE1AD077CF008E9B54 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				188586CD1AD077D0008E9B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188586CE1AD077D0008E9B54 /* Build configuration list for PBXNativeTarget "WJSecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				188586D01AD077D0008E9B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
